@@ -58,7 +58,7 @@ img{
     font-size: 1.3rem;
 }
 #navbar ul li a{
-    color: white;
+    color:var(--mainBgColor-dark);
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
@@ -66,8 +66,8 @@ img{
 
 }
 #navbar ul li a:hover{
-    color: black;
-    background-color: white;
+    color:var(--mainTextColor-dark);
+    background-color:var(--mainBgColor-dark);
 }
 #home{
     display: flex;
@@ -85,7 +85,7 @@ img{
 }
 #home::before{
     content: "";
-    background: url('images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg') no-repeat center center/cover;
+    background: url('images/freestocks-_3Q3tsJ01nc-unsplash.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -250,6 +250,16 @@ footer{
     .h-secondary{
         font-size: 3.5rem;
         margin-top: 70px;
+    }
+    #contact-box input, textarea{
+        width: 95%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.5rem;
+    }
+    #contact-box label {
+        font-size: 1.5rem;
+        font-family: 'Bree Serif', serif;
     }
 }
 
