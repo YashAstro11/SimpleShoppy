@@ -241,6 +241,10 @@ footer{
         height: 50px;
         width: 50px;
     }
+    .h-secondary{
+        font-size: 3.5rem;
+        margin-top: 70px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -266,5 +270,19 @@ footer{
 
     #contact-box form {
         width: 100%;
+    }
+    .h-secondary{
+        font-size: 3.5rem;
+        margin-top: 70px;
+    }
+    #contact-box textarea{
+        width: 95%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.5rem;
+    }
+    #contact-box label {
+        font-size: 1.5rem;
+        font-family: 'Bree Serif', serif;
     }
 }
