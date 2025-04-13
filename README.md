@@ -25,12 +25,3 @@
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots here once available — e.g. homepage, product cards, responsive view, etc.
-
----
-
-## 📂 Project Structure
-
-/SimpleShoppy │ ├── index.html ├── style.css ├── script.js ├── /assets │ ├── /images │ └── /icons └── README.md
